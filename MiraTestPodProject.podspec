@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  This lib shows us that we can achieve simple things at cocoapods.
                        DESC
 
   s.homepage         = 'https://github.com/DmytroVlasenkoMiraCommerce/MiraTestPodProject'
@@ -26,11 +26,13 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'DmytroVlasenkoMiraCommerce' => 'csyuyjvf@gmail.com' }
   s.source           = { :git => 'https://github.com/DmytroVlasenkoMiraCommerce/MiraTestPodProject.git', :tag => s.version.to_s }
+  s.swift_version = "5.2"
+  s.summary  = "The little description for our very firstt MiraCommerce pod"
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '14.0'
 
-  s.source_files = 'Sources/**/*.swift'
+  s.source_files = 'MiraTestPodProject/**/*.{h,m,swift}'
   
   # s.resource_bundles = {
   #   'MiraTestPodProject' => ['MiraTestPodProject/Assets/*.png']
