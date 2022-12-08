@@ -94,7 +94,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
-				FF28D37629415CEB00CF349A /* TestClassForDemo.swift */,
+				FF28D37929416A8E00CF349A /* Sources */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for MiraTestPodProject */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -160,6 +160,14 @@
 				B2DA205FEB78A1A0E42D878C /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		FF28D37929416A8E00CF349A /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				FF28D37629415CEB00CF349A /* TestClassForDemo.swift */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
