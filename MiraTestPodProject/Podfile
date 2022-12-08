@@ -1,0 +1,66 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'FBSnapshotTestCase' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for FBSnapshotTestCase
+
+end
+
+target 'iOSSnapshotTestCase' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for iOSSnapshotTestCase
+
+end
+
+target 'MiraTestPodProject' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for MiraTestPodProject
+
+end
+
+target 'Nimble' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Nimble
+
+end
+
+target 'Nimble-Snapshots' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Nimble-Snapshots
+
+end
+
+target 'Pods-MiraTestPodProject_Example' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Pods-MiraTestPodProject_Example
+
+end
+
+target 'Pods-MiraTestPodProject_Tests' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Pods-MiraTestPodProject_Tests
+
+end
+
+target 'Quick' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Quick
+
+end

@@ -31,8 +31,8 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '14.0'
 
-  s.source_files = 'MiraTestPodProject/**/*.{h,m,swift}'
-  
+  s.source_files = '**/Classes/*.{h,m,swift}'
+
   # s.resource_bundles = {
   #   'MiraTestPodProject' => ['MiraTestPodProject/Assets/*.png']
   # }
